@@ -72,31 +72,31 @@ Par contre, on peut additionner deux chaines de caractère
 \\ Module principal
 DÉBUT
    
-    A = "Coucou les pioupious"
-    B = "de turing"
+    A = "Coucou les Devs"
+    B = "de Charleroi"
 
-    A + B  \\ Va retourner "Coucou les pioupiousde turing"
+    A + B  \\ Va retourner "Coucou les Devsde Charleroi"
 FIN
 ````
 
-L'addition retournera bien les deux chaîne de caractères collées. Pour mettre un espase entre les deux chaîne de caractères, on peut faire ceci : 
+L'addition retournera bien les deux chaîne de caractères collées. Pour mettre un espace entre les deux chaîne de caractères, on peut faire ceci : 
 
 ````
 \\ Module principal
 DÉBUT
-    A + " " + B \\ Retournera : "Coucou les pioupious de turing"
+    A + " " + B \\ Retournera : "Coucou les Devs de Charleroi"
 FIN
 ````
 Notez au passage qu'on appelle cela "concatener".
 
 
 ## Lire et écrire les variables
-Jusqu'à présent, on affiche pas les variables qu'on utilise dans la console.Donc pour l'instant, nos variables ne servent à rien.  
+Jusqu'à présent, on affiche pas les variables qu'on utilise dans la console. Donc pour l'instant, nos variables ne servent à rien.  
 On va  régler le problème en utilisant une fonction qui nous pertmettra d'écrire les variables dans la console.  
 ````
 \\ Module principal
 DÉBUT
-    B = "Coucou les pioupious"
+    B = "Coucou les Devs"
     ÉCRIRE B
 FIN
 ````
@@ -160,7 +160,7 @@ Dans un cas comme celui-là, le compilateur comprend qu'il doit interpréter ``B
 
 
 
-### 3. Créer un phrase avec les mots ci dessous
+### 3. Créer un phrase avec les mots ci-dessous
 
 ````
 \\ Module principal
@@ -232,7 +232,7 @@ FIN
 ``` 
 </details>
 
-### 5. Pose 2 questions à l'utilisateur de ton programme. Tu dois lui demander son prénom que tu devras stocker dans une variable ``PRENOM`` et son plat favoris dans la variable ``PLAT_FAVORIS``. Ensuite écris une phrase avec ces informations et qui ressemble à ceci : "Ton prénom est .... et ton plat favoris est ....
+### 5. Pose 2 questions à l'utilisateur de ton programme. Tu dois lui demander son prénom que tu devras stocker dans une variable ``PRENOM`` et son plat favori dans la variable ``PLAT_FAVORI``. Ensuite écris une phrase avec ces informations et qui ressemble à ceci : "Ton prénom est .... et ton plat favori est ....
 
 <details>
     <summary>Solution</summary>
@@ -242,9 +242,9 @@ FIN
 DÉBUT
     ÉCRIRE "Quel est ton prénom ?"
     LIRE PRENOM
-    ÉCRIRE  "Quel est ton plat favoris ?"
-    LIRE PLAT_FAVORIS   
-    ÉCRIRE "Ton prénom est " + PRENOM + " et tu aimes "  + PLAT_FAVORIS
+    ÉCRIRE  "Quel est ton plat favori ?"
+    LIRE PLAT_FAVORI   
+    ÉCRIRE "Ton prénom est " + PRENOM + " et tu aimes "  + PLAT_FAVORI
 FIN
 ````
 </details>    
