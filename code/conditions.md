@@ -80,7 +80,7 @@ On a la possibilité de faire plusieurs vérifications dans les conditions. Pour
 DÉBUT
     ECRIRE "Quel est ton age"   
     LIRE age
-    ECRIRE "Combien de badge as-tu ?"
+    ECRIRE "Combien de badges as-tu ?"
     LIRE badge
     SI age >= 18 ET badge >= 25 ALORS
         ECRIRE "Bienvenue"
@@ -98,7 +98,7 @@ Si maintenant nous utilisons l'operateur ``OU`` dans le test,
 DÉBUT
     ECRIRE "Quel est ton age"   
     LIRE age
-    ECRIRE "Combien de badge as-tu ?"
+    ECRIRE "Combien de badges as-tu ?"
     LIRE badge
 
     SI age >= 18 OU badge >= 25 ALORS
@@ -141,7 +141,7 @@ Même chose pour les badges.
 DÉBUT
     ECRIRE "Quel est ton age"   
     LIRE age
-    ECRIRE "Combien de badge as-tu ?"
+    ECRIRE "Combien de badges as-tu ?"
     LIRE badge
 
     SI age >= 18 OU badge >= 25 ALORS
@@ -160,7 +160,7 @@ FIN
 DÉBUT
     ECRIRE "Quel est ton age"   
     LIRE age
-    ECRIRE "Combien de badge as-tu ?"
+    ECRIRE "Combien de badges as-tu ?"
     LIRE badge
 
     SI age >= 18 ET badge >= 25 ALORS
