@@ -17,10 +17,10 @@ DEBUT
     eleve3 = "Pierre"
     eleve4 = "Odile"
     ...
-    ECRIRE eleve1, " est dans la classe Turing"
-    ECRIRE eleve2, " est dans la classe Turing"
-    ECRIRE eleve3, " est dans la classe Turing"
-    ECRIRE eleve4, " est dans la classe Turing"
+    ECRIRE eleve1, " est dans la classe de Dev"
+    ECRIRE eleve2, " est dans la classe de Dev"
+    ECRIRE eleve3, " est dans la classe de Dev"
+    ECRIRE eleve4, " est dans la classe de Dev"
 FIN
 ````
 Cela ne fait pas très D.R.Y n'est-ce pas ? L'utilisation des tableaux et des boucles nous aident à améliorer notre code. 
@@ -47,7 +47,7 @@ Grâce aux boucles, nous allons pouvoir parcourir l'ensemble du tableau en écri
 DÉBUT
     eleve = ["Serge","Marie", "Pierre", "Odile"]
     POUR nombre = 1  JUSQU'À 4 FAIRE      
-        ECRIRE eleve[nombre], "est dans la classe Turing"
+        ECRIRE eleve[nombre], "est dans la classe de Dev"
     FINPOUR 
 FIN  
 ````
@@ -55,19 +55,19 @@ Ici c'est la variable ``nombre`` qui est l'index du tableau ``eleve``.
 
 
 ## Tableaux multi-dimensionnels
-On peut également imbriquer des tableaux. Imaginons que nous souhaitons stocker dans un tableau tous les apprenants de becode par promo. Donc un tableau = une promo. Pour ce faire on va créer un tableau apprenant
+On peut également imbriquer des tableaux. Imaginons que nous souhaitons stocker dans un tableau tous les apprenants de Dev par promo. Donc un tableau = une promo. Pour ce faire on va créer un tableau apprenant
 
 ````
 apprenants = []
 ````
 
-Dans ce tableau nous allons y stocker un autre tableau avec les apprenants de la promo turing. 
+Dans ce tableau nous allons y stocker un autre tableau avec les apprenants de la promo 2024. 
 
 ````
 apprenants = [["David", "Justine", "Valentin","Axel"]]
 ````
 
-Ensuite imaginons que nous souhaitons rajouter les apprenants de Lovelace.
+Ensuite imaginons que nous souhaitons rajouter les apprenants de 2023.
 
 ````
 apprenants = [["David", "Justine", "Valentin","Axel"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]
@@ -116,8 +116,8 @@ La seconde boucle sera incrémentée 5 fois car chaque tableau contient 5 élém
 
 ## Exercices 
 
-1. Créer un tableau qui contient 5 prénoms. Ensuite faire en sorte d'afficher cette phrase  : " LE_PRENOM est dans la classe turring"
+1. Créer un tableau qui contient 5 prénoms. Ensuite faire en sorte d'afficher cette phrase  : " LE_PRENOM est dans la classe de Dev"
 2. Reprendre le tableau précédent et utiliser ce tableau ci-dessous. Cette fois faire en sorte d'afficher une competence par éléve. 
 ``competence = ["html", "css", "javascript", "php", "Java"]``
 3. Créer un algorithme qui affiche le nombre le plus grand de ces tableaux. ``nombres = [[18,55], [29,13], [-2,15],[66,44]]``
-4. Reprendre ce tableau ``apprenants = [["David", "Justine", "Valentin","Axel", "Redouane"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]``. Faire en sorte que le premier tableau affiche "PRENOM est chez les turings". Le second tableau devra afficher "PRENOM est chez les lovelaces".
+4. Reprendre ce tableau ``apprenants = [["David", "Justine", "Valentin","Axel", "Redouane"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]``. Faire en sorte que le premier tableau affiche "PRENOM est chez les 2024". Le second tableau devra afficher "PRENOM est chez les 2023".
