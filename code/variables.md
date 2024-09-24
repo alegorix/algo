@@ -102,7 +102,7 @@ FIN
 ````
 Appuyez sur ``F7`` ou sur le petit bouton ``Exécuter`` (petit bouton play) dans LARP. Vous devriez voir quelque chose comme ceci : 
 
-![console](./CaptureConsole.PNG)
+![console](./CaptureConsole.png)
 
 
 Avec la fonction ``LIRE``, on a la possibilité de capturer ce que l'utilisateur encode dans la console.   
