@@ -10,7 +10,7 @@
 1. [Les fonctions](./function.md)
 
 ## SI, SINON ALORS, FINSI
-Ça y est, on entre tout doucement dans ce qu'on peut appeller l'algorithmique. Les conditions permettent de rajouter un peu de logique à notre programme. Elles commencent toujours par ``SI`` (``if`` en inglish) suivi de la condition en question. Si la condition est remplie, on passe alors dans le bloc ``ALORS``
+Ça y est, on entre tout doucement dans ce qu'on peut appeller l'algorithmique. Les conditions permettent de rajouter un peu de logique à notre programme. Elles commencent toujours par ``SI`` (``if`` en anglais) suivi de la condition en question. Si la condition est remplie, on passe alors dans le bloc ``ALORS``
 Si la condition n'est pas remplie on ignore le bloc et on passe à la ligne suivante.
 Ex :
 ````
@@ -73,7 +73,7 @@ Pour comparer 2 valeurs, nous aurons besoin des *opérateurs de comparaison*.
 
 
 ## Les opérateurs logiques 
-On a la possibilité de faire plusieurs vérifications dans les conditions. Pour ce faire on a des opérateurs logique``ET`` & ``OU``. Imaginons un programme qui vérifie si une personne est élligible pour faire sa rentrée à BeCode. On doit vérifier deux choses, la personne doit être majeur et doit posséder 25 badges.
+On a la possibilité de faire plusieurs vérifications dans les conditions. Pour ce faire on a des opérateurs logique``ET`` & ``OU``. Imaginons un programme qui vérifie si une personne est élligible pour faire sa rentrée. On doit vérifier deux choses, la personne doit être majeur et doit posséder 25 badges.
 
 ````
 \\ Module principal
@@ -83,14 +83,14 @@ DÉBUT
     ECRIRE "Combien de badge as-tu ?"
     LIRE badge
     SI age >= 18 ET badge >= 25 ALORS
-        ECRIRE "Bienvenue chez BeCode"
+        ECRIRE "Bienvenue"
     SINON 
-        ECRIRE "Tu n'es pas elligible pour Becode"
+        ECRIRE "Tu n'es pas elligible"
     FINSI
 FIN
 ````
 
-Dans ce cas ci, l'utilisateur doit remplir **les deux** conditions, si ce n'est pas le cas, la console affichera toujours "Tu n'es pas élligible ..."
+Dans ce cas ci, l'utilisateur doit remplir **les deux** conditions, si ce n'est pas le cas, la console affichera toujours "Tu n'es pas élligible"
 
 Si maintenant nous utilisons l'operateur ``OU`` dans le test,
 ````
@@ -102,18 +102,18 @@ DÉBUT
     LIRE badge
 
     SI age >= 18 OU badge >= 25 ALORS
-        ECRIRE "Bienvenue chez BeCode"
+        ECRIRE "Bienvenue"
     SINON 
-        ECRIRE "Tu n'es pas elligible pour Becode"
+        ECRIRE "Tu n'es pas elligible"
     FINSI
 FIN
 ````
-L'utilisateur ne doit remplir qu'une des deux contions. Donc la phrase "Bienvenue chez BeCode" s'affichera si l'utilisateur a plus de 18 OU s'il a 25 badges. Alors ce n'est pas le comportement qu'on souhaite mais c'est surtout pour illustrer la différence entre ET & OU.
+L'utilisateur ne doit remplir qu'une des deux contions. Donc la phrase "Bienvenue" s'affichera si l'utilisateur a plus de 18 OU s'il a 25 badges. Alors ce n'est pas le comportement qu'on souhaite mais c'est surtout pour illustrer la différence entre ET & OU.
 
 
 ## Exercices : 
 
-1. Ecrire un algorithme qui demande à l'utilisateur d'entrer son âge. Si l'utilisateur à moins de 18 ans, le programme indiquera : *Tu es trop jeune pour faire la formation BeCode*. Par contre si l'utlisateur à plus de 18  ans, la phrase devra indiquer *Tu peux participer à la formation*.
+1. Ecrire un algorithme qui demande à l'utilisateur d'entrer son âge. Si l'utilisateur à moins de 18 ans, le programme indiquera : *Tu es trop jeune pour faire la formation*. Par contre si l'utlisateur à plus de 18  ans, la phrase devra indiquer *Tu peux participer à la formation*.
 
 <details>
 	<summary>Solution</summary>
@@ -133,7 +133,7 @@ FIN
 </details>   
   &nbsp;  
 
-2. Adapte le code ci-dessous de manière à ce que l'utilisateur sache pourquoi il ne peut pas faire la formation à Becode. S'il n'a pas l'âge requis, un message devra s'afficher avec le nombre d'année avant qu'il ne puisse faire sa rentré. Donc si l'utilisateur a 17 ans, le message devrait être "Il te manque 1 an pour partciper à la formation".
+2. Adapte le code ci-dessous de manière à ce que l'utilisateur sache pourquoi il ne peut pas faire la formation. S'il n'a pas l'âge requis, un message devra s'afficher avec le nombre d'année avant qu'il ne puisse faire sa rentrée. Donc si l'utilisateur a 17 ans, le message devrait être "Il te manque 1 an pour partciper à la formation".
 Même chose pour les badges.
 
 ````
@@ -145,9 +145,9 @@ DÉBUT
     LIRE badge
 
     SI age >= 18 OU badge >= 25 ALORS
-        ECRIRE "Bienvenue chez BeCode"
+        ECRIRE "Bienvenue"
     SINON 
-        ECRIRE "Tu n'es pas elligible pour Becode"
+        ECRIRE "Tu n'es pas elligible"
     FINSI
 FIN
 ````
@@ -164,7 +164,7 @@ DÉBUT
     LIRE badge
 
     SI age >= 18 ET badge >= 25 ALORS
-        ECRIRE "Bienvenue chez BeCode"
+        ECRIRE "Bienvenue"
     FINSI
     SI age < 18 ALORS 
         ECRIRE "Il te manque ", (18-age), " ans pour participer à la formation"
