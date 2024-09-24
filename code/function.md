@@ -67,7 +67,7 @@ FIN
 ````
 C'était pas très pratique, imaginez qu'un des deux tableaux ait 4 apprenants et l'autre 5 apprenants. Il y aurait eu erreur de LARP car il n'aurait pas trouvé le 5e apprenant.  
 
-Essayez ce code, ici on a retiré "Julie" de la classe Lovelace. Vous allez avoir une erreur de compilation.
+Essayez ce code, ici on a retiré "Julie" de la classe promo 2023. Vous allez avoir une erreur de compilation.
 
 ````
 \\ Module principal
@@ -89,7 +89,7 @@ Petite info supplémentaire, quand on met la variable ``apprenants`` entre les p
 
 ## Les fonctions personalisées 
 
-Il est possible de créer ses propres fonctions. Pour l'exemple on va créer une fonction ``ADDITION`` qui retrournera la somme des deux variables passé en argmuent. 
+Il est possible de créer ses propres fonctions. Pour l'exemple on va créer une fonction ``ADDITION`` qui retrournera la somme des deux variables passées en argmuent. 
 
 Pour commencer, allez dans la fenêtre de gauche et faites un click droit sur ``PRINCIPAL``, ensuite sélectionner ``Nouveau module (pseudocode)``
 
