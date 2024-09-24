@@ -121,3 +121,10 @@ La seconde boucle sera incrémentée 5 fois car chaque tableau contient 5 élém
 ``competence = ["html", "css", "javascript", "php", "Java"]``
 3. Créer un algorithme qui affiche le nombre le plus grand de ces tableaux. ``nombres = [[18,55], [29,13], [-2,15],[66,44]]``
 4. Reprendre ce tableau ``apprenants = [["David", "Justine", "Valentin","Axel", "Redouane"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Son"]]``. Faire en sorte que le premier tableau affiche "PRENOM est chez les 2024". Le second tableau devra afficher "PRENOM est chez les 2023".
+
+
+&nbsp; 
+    
+**Chapitre suivant**  
+-> [Les fonctions](./function.md)  
+
