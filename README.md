@@ -8,7 +8,7 @@
 
 ## Objectifs 
 * Comprendre l'algorithmique
-* Premier pas dans le code.
+* Premier pas dans le code
 
 ## Index
 
