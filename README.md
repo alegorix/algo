@@ -51,7 +51,7 @@ Donc on va utiliser le pseudo-code qui à l'avantage de se concentrer uniquement
 Téléchargez simplement [Larp](https://softfamous.com/postdownload-file/larp/5617/1688/) et installez le, vous n'avez rien à faire d'autres.
 
 ### Linux
-Ceux qui sont sur linux, veuillez d'abord télécharger et installer [Wine](https://www.winehq.org/). Wine un est petit outil qui permet de faire tourner certains programmes windows sur linux. Ensuite vous pourrez installer [Larp](http://larp.marcolavoie.ca/fr/download/download.htm)
+Ceux qui sont sur linux, veuillez d'abord télécharger et installer [Wine](https://www.winehq.org/). Wine un est petit outil qui permet de faire tourner certains programmes windows sur linux. Ensuite vous pourrez installer [Larp](https://softfamous.com/postdownload-file/larp/5617/1688/)
 
 ### Mac OSX
 Pour ceux qui sont sur Mac Osx, il existe un équivalent à wine qui est [Play on mac](https://www.playonmac.com/fr/). Ensuite veuillez télécharger et installer [Larp](http://larp.marcolavoie.ca/fr/download/download.htm).
