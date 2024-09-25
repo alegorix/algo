@@ -140,7 +140,7 @@ C'est parti pour les exercices.
 1. **Le Juste Prix, level 2.** Dans le module principal, créer une variable PRIX et qui a une valeur aléatoire. (Il faut regarder dans les fonctions disponnible dans LARP.) Le programme demandera à l'utilisateur d'entrer le prix à deviner. Créer une fonction qui vérifie si le prix est correct ou non. Si le prix à deviner est inférieur au prix rentré, cela affichera "C'est moins". Si le prix est supérieur au prix encodé, "C'est plus". Si le prix est juste "Bravo, vous avez gagné". Attention, l'utilisateur est limité à 10 propositions. S'il dépasse les 10 propositions, cela affichera  "Vous avez perdu !"
 1. **LEVEL JEDI !** Créer un algorithme qui fera un tri automatique de ce tableau   
    ````tri = [454, 4, 59, 68, 1, 0, -1 , 56 , 7 , 9] ````  
-Utilisez TOUT ce que vous avez appris lors de ce petit briefing. 
+Utilisez TOUT ce que vous avez appris lors de cette leçon. 
 
 
 Fini ?
