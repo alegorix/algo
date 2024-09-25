@@ -1,7 +1,6 @@
 # Algorithme et pseudo-code.  
 
 * Repository: algo
-* Durée: 1 jour
 * À délivrer sur :
     * Github
   
