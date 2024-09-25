@@ -7,7 +7,8 @@
 
 ## Objectifs 
 * Comprendre l'algorithmique
-* Premier pas dans le code
+* Utiliser et comprendre le pseudo-code
+* Faire vos premiers pas dans le code
 
 ## Index
 
@@ -29,7 +30,7 @@ Allez, on va regarder sur wikipédia.
 
 > Un algorithme est une suite finie et non ambiguë d’opérations ou d'instructions permettant de résoudre un problème ou d'obtenir un résultat.
 
-On retrouve de l'algorithmique partout, pas uniquement en informatique ou dans les maths. Par exemple quand vous suivez les instructions du mode d'emploi de votre commode Ikéa, vous suivez en fait un algorithme. De même lorsque vous expliquez le chemin à prendre pour aller chez l'épicier du coin, vous utilisez également un algorithme. 
+On retrouve de l'algorithmique partout, pas uniquement en informatique ou dans les maths. Par exemple quand vous suivez une recette de cuisine ou les instructions du mode d'emploi de votre commode Ikéa, vous suivez en fait un algorithme. De même lorsque vous expliquez le chemin à prendre pour aller chez l'épicier du coin, vous utilisez également un algorithme. 
 
 ````
 - Avancer tout droit.
