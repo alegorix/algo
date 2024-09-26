@@ -27,7 +27,7 @@ else:
     print("Risque de verglas généralisé")
 ````
 
-## Idem mais en HTML avec une pointe de Javascript
+## Idem mais en HTML (et avec du Javascript)
 ````
 <!DOCTYPE html>
 <html>
