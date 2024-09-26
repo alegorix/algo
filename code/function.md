@@ -4,7 +4,7 @@
 1. [Les conditions](./conditions.md)
 1. [Les boucles](./whileAndFor.md)  
 1. [Les tableaux](./array.md) 
-1. [Les fonctions](./function.md) ←
+1. Les fonctions ←
 1. [Aller plus loin](./allerplusloin.md)
     
 # Les fonctions
