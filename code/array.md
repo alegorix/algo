@@ -1,7 +1,7 @@
 1. [Introduction](../README.md)
 1. [Les variables](./variables.md)
 1. [Les conditions](./conditions.md)
-1. [Les boucles](./whileAndFor.md)  
+1. [Les boucles](./whileAndfor.md)  
 1. Les tableaux  ←
 1. [Les fonctions](./function.md)
 1. [Aller plus loin](./allerplusloin.md)
