@@ -10,6 +10,7 @@
 1. [Les boucles](./whileAndfor.md)
 1. [Les tableaux](./array.md)
 1. [Les fonctions](./function.md)
+1. [Aller plus loin](./allerplusloin.md)
 
 
 Les variables permettent de stocker **temporairement**  une **valeur** dans la mémoire de l'ordinateur. On pourra ensuite s'en servir et l'utiliser au moment venu dans un programme. On peut comparer cela à une petite boite dans laquelle on pourrait stocker une information ou plusieurs informations. 
