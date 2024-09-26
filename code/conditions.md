@@ -1,7 +1,7 @@
 # Les conditions
 
 1. [Introduction](../README.md)
-1. [Les variables](./variables)
+1. [Les variables](./variables.md)
 1. Les conditions ← 
     * [SI, SINON , FINSI](#si-sinon-alors-finsi)
     * [Les opérateurs de comparaison](#les-opérateurs-de-comparaison)
