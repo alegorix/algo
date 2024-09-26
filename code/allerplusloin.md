@@ -1,4 +1,13 @@
-# Algorithme et pseudo-code.  
+1. [Introduction](../README.md)
+1. [Les variables](./variables.md)
+1. [Les conditions](./conditions.md)
+1. [Les boucles](./whileAndFor.md)  
+1. [Les tableaux](./array.md) 
+1. [Les fonctions](./function.md)
+1. [Aller plus loin](./allerplusloin.md) ←
+
+
+
 ## Allons plus loin !
 
 
