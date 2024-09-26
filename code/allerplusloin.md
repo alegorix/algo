@@ -14,6 +14,28 @@ On demande d’écrire un algorithme en utilisant un organigramme
 ![Organigramme_temperature](./temperature_organigr_pos.png)
 ### >>> Essayez de le faire en pseudo-code
 
+
+<details>
+    <summary>Solution </summary>
+````
+\\ Module principal
+DEBUT 
+    ECRIRE "Entrez une température :"
+    LIRE temp
+    SI temp > 5 ALORS 
+    ECRIRE "Pas de danger"
+    SINON SI temp > 1 ALORS
+    ECRIRE "Risque de verglas isolé"
+    SINON
+    ECRIRE "Risque de verglas généralisé"
+    FINSI
+FIN 
+````
+</details>
+
+
+
+
 ## Ecriture en Python
 Analysez le code ci-dessous, on dirait du pseudo-code amélioré ? Non ?
 ````
