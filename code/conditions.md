@@ -8,6 +8,7 @@
 1. [Les boucles](./whileAndfor.md)
 1. [Les tableaux](./array.md)
 1. [Les fonctions](./function.md)
+1. [Aller plus loin](./allerplusloin.md)
 
 ## SI, SINON ALORS, FINSI
 Ça y est, on entre tout doucement dans ce qu'on peut appeller l'algorithmique. Les conditions permettent de rajouter un peu de logique à notre programme. Elles commencent toujours par ``SI`` (``if`` en anglais) suivi de la condition en question. Si la condition est remplie, on passe alors dans le bloc ``ALORS``
