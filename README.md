@@ -21,6 +21,7 @@
 4. [Les boucles](code/whileAndfor.md)
 5. [Les tableaux](code/array.md)
 6. [Les fonctions](code/function.md)
+7. [Aller plus loin](code/allerplusloin.md)
 
    
 
