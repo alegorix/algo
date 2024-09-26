@@ -11,5 +11,5 @@ Demandons à l’utilisateur d’entrer une valeur (entière) en degrés Celsius
 On demande d’écrire un algorithme en utilisant un organigramme
 
 ## Création de notre organigramme
-
+![Organigramme_temperature](./temperature_organigr.png)
 
