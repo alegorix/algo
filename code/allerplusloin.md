@@ -13,3 +13,15 @@ On demande d’écrire un algorithme en utilisant un organigramme
 ## Création de notre organigramme
 ![Organigramme_temperature](./temperature_organigr_pos.png)
 
+## Transformation / Ecriture en Python
+Analysez le code ci-dessous
+````
+print(" Entrez la température : ")
+temp=int(input())
+if temp > 5:
+    print("Pas de danger")
+elif temp > 1:
+    print("Risque de verglas isolé")
+else:
+    print("Risque de verglas généralisé")
+````
