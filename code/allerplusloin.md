@@ -12,9 +12,10 @@ On demande d’écrire un algorithme en utilisant un organigramme
 
 ## Création de notre organigramme
 ![Organigramme_temperature](./temperature_organigr_pos.png)
+### Essayez de le faire en pseudo-code
 
-## Transformation / Ecriture en Python
-Analysez le code ci-dessous
+## Ecriture en Python
+Analysez le code ci-dessous, on dirait du pseudo-code amélioré ? Non ?
 ````
 print(" Entrez la température : ")
 temp=int(input())
