@@ -48,7 +48,7 @@ FIN
 
 
 
-## Ecriture en Python
+## Et en Python, voilà ce que ça donne...
 Analysez le code ci-dessous, on dirait du pseudo-code amélioré ? Non ?
 ````
 print(" Entrez la température : ")
