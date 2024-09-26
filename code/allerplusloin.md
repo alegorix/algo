@@ -16,10 +16,11 @@ On demande d’écrire un algorithme en utilisant un organigramme
 
 
 <details>
-    <summary>Solution </summary>
+    <summary>Solution</summary>
+
 ````
 \\ Module principal
-DEBUT 
+DÉBUT
     ECRIRE "Entrez une température :"
     LIRE temp
     SI temp > 5 ALORS 
@@ -29,9 +30,11 @@ DEBUT
     SINON
     ECRIRE "Risque de verglas généralisé"
     FINSI
-FIN 
+FIN
 ````
-</details>
+</details>    
+
+&nbsp; 
 
 
 
