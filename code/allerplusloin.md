@@ -26,3 +26,32 @@ elif temp > 1:
 else:
     print("Risque de verglas généralisé")
 ````
+
+## Idem mais en HTML avec une pointe de Javascript
+````
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Température</title>
+  </head>
+  <body>
+    <label for="temperature">Entrez la température :</label>
+    <input type="number" id="temperature">
+    <button onclick="checkTemperature()">Vérifier</button>
+    <p id="result"></p>
+
+    <script>
+      function checkTemperature() {
+        var temp = document.getElementById("temperature").value;
+        if (temp > 5) {
+          document.getElementById("result").innerHTML = "Pas de danger";
+        } else if (temp > 1) {
+          document.getElementById("result").innerHTML = "Risque de verglas isolé";
+        } else {
+          document.getElementById("result").innerHTML = "Risque de verglas généralisé";
+        }
+      }
+    </script>
+  </body>
+</html>
+````
