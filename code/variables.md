@@ -210,8 +210,8 @@ DÉBUT
     C = A
     A = B
     B = C 
-    ÉCRIRE  "A vaut " + A
-    ÉCRIRE  "B vaut " + B    
+    ÉCRIRE  "A vaut ",A
+    ÉCRIRE  "B vaut ",B    
 FIN
 ``` 
 </details>
