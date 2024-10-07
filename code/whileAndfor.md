@@ -108,7 +108,18 @@ FIN
 ````
 \\ Module principal
 DÉBUT
-
+INCONNU = 514
+nombre = 0
+TANTQUE INCONNU != nombre FAIRE
+ECRIRE "Entrez un nombre :"
+LIRE nombre
+    SI INCONNU < nombre ALORS
+        ECRIRE "C'est moins."             
+    SINON SI INCONNU > nombre ALORS
+        ECRIRE "C'est plus."
+    FINSI  
+FINTANTQUE
+ECRIRE "BRAVO ! Vous avez gagné !"
 FIN
 ````
 </details>    
