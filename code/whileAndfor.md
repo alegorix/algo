@@ -67,7 +67,12 @@ Exemple, si l'utilisateur entre le chiffre 3, alors ton programme affichera quel
 ````
 \\ Module principal
 DÉBUT
-
+ECRIRE "Entrez un nombre"
+LIRE nombre
+TANTQUE nombre >= 0 FAIRE
+    ECRIRE nombre
+    nombre = nombre - 1
+FINTANTQUE
 FIN
 ````
 </details>    
