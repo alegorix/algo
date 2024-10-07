@@ -82,7 +82,28 @@ FIN
 2. Le juste prix. Créer une variable qui va contenir le chiffre à trouver. Ensuite créer un algorithme qui demandera à l'utilisateur de trouver ce prix. Si l'utilisateur introduit un nombre trop élevé, il aura la phrase : "C'est moins". Si il introduit un nombre trop bas, il aura la phrase : "C'est plus". Si l'utilisateur trouve le bon nombre il aura la phrase : "Bravo, tu as gagné".
 
 <details>
-    <summary>Solution</summary>
+    <summary>Solution (sans boucle)</summary>
+
+````
+\\ Module principal
+DÉBUT
+INCONNU = 514
+ECRIRE "Entrez un nombre"
+LIRE nombre
+    SI INCONNU < nombre ALORS
+        ECRIRE "C'est moins"
+    SINON SI INCONNU = nombre ALORS 
+        ECRIRE "BRAVO ! Vous avez gagné !"
+    SINON
+        ECRIRE "C'est plus"
+    FINSI  
+FIN
+````
+</details>    
+
+&nbsp;
+<details>
+    <summary>Solution (avec boucle)</summary>
 
 ````
 \\ Module principal
