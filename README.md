@@ -48,6 +48,9 @@ On retourne sur wikipédia :
 
 Donc on va utiliser le pseudo-code qui à l'avantage de se concentrer uniquement sur la logique sans se soucier de la syntaxe, qui est spécifique à chaque technologie. Cette logique sera applicable à n'importe quel langage informatique. Nous allons utiliser le gratuiciel [Larp](https://softfamous.com/postdownload-file/larp/5617/1688/) pour la mettre en oeuvre et pouvoir l'executer. Notez que l'on fait même abstraction de l'anglais pour se concentrer uniquement sur la logique
 
+### Editeur de Pseudo Code en ligne (UK)
+Visitez [PSEUDOCODE.DEEPJAIN.COM](https://pseudocode.deepjain.com/)
+
 ### Windows
 Téléchargez simplement [Larp](https://softfamous.com/postdownload-file/larp/5617/1688/) et installez le, vous n'avez rien à faire d'autres.
 
